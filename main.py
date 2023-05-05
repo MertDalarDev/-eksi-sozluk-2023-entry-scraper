@@ -2,6 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 
 # Keep the URLs of all pages in a list
+# The link will be entered manually, you can specify which entries will be between which pages.
 pages = ["https://eksisozluk2023.com/5-mayis-2023-kahramanmaras-secim-anketi--7646489?a=popular&p={}".format(i) for i in range(1, 40)]
 
 entries = []
